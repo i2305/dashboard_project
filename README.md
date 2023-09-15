@@ -1,1 +1,1 @@
-# dashboard_project
+Creating admin dashboard using advanced HTML and CSS knowledge.
