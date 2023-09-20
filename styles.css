@@ -9,6 +9,8 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+/*SIDEBAR*/
+
 .grid{
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -17,7 +19,7 @@ body{
 .sidebar{
     height:100vh;
     background-color:#0ea5e9;
-    color:white;
+    color:#ffffff;
 }
 
 .dashboard{
@@ -25,7 +27,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 10px 0px;
     margin-right: 10px;
 }
 
@@ -43,7 +45,7 @@ body{
 }
 
 .icons h4{
-    font-size: 16px;
+    font-size: 15px;
     margin-left: 20px;
 }
 
@@ -54,8 +56,8 @@ svg.dashboard{
 }
 
 svg.icon{
-    height: 30px;
-    width:30px;
+    height: 25px;
+    width:25px;
     fill:#ffffff;
 }
 
@@ -63,7 +65,50 @@ svg.icon{
     margin-top:50px;
 }
 
+/*MAIN*/
+
 .main{
     height:100vh;
-    background-color: white;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.header{
+    background-color: #ffffff;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-left:20px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.form-input{
+    width:500px;
+    background-color: #e2e8f0;
+    border:1px solid #e2e8f0;
+    border-radius: 10px;
+    height:20px;
+    margin-right: 120px;
+    margin-left: 10px;
+}
+
+.navbar-avatar{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+svg.navbar-icons{
+    height:25px;
+    width:25px;
+}
+
+.content{
+    background-color:#e2e8f0;
 }
