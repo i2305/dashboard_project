@@ -183,34 +183,91 @@ button{
 
 .card{
     background-color: #ffffff;
-    width:270px;
-    height:140px;
+    width:250px;
+    height:130px;
     border-left: 8px solid #fbbf24;
-    border-radius: 10px;
-    margin: 10px 0px;
-    padding:20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    border-radius: 8px;
+    margin:10px 0px;
+    padding:25px;
+    display: grid;
+    grid-template-rows: 20px 20px;
 }
 
 .card-icons{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
     width:100%;
-    margin-top: 30px;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .card p{
-    font-size:13px;
+    font-size:14px;
     color:#9ca3af;
 }
 
 svg.card-icon{
     width:20px;
     height:20px;
-    margin: 10px;
+}
+
+.ann-trend{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.ann-card, .trend-card{
+    height:77%;
+    width:85%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.ann-card{
+    margin-top: 10px;
+}
+
+.ann h4{
+    margin-right:25px;
+    margin-top: 20px;
+}
+
+.ann-text{
+    padding:15px;
+    display: grid;
+    grid-template-rows: 15px 15px 15px;
+    place-content: center;
+    text-align: left;
+}
+
+.divider{
+    border: 1px solid #e2e8f0;
+    width:80%;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.ann-text p, .trend-image-text p {
+    font-size:10px;
+    color:#9ca3af;
+}
+
+
+.trend-card{
+    margin-top: 10px;
+}
+
+.trend-image-text img{
+    width:30px;
+    height:30px;
+    margin-right:15px;
+}
+
+.trend-image-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    padding:10px;
 }
